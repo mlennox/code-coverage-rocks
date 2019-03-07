@@ -1,0 +1,29 @@
+{
+  "name": "code-coverage-rocks",
+  "version": "1.0.0",
+  "description": "Small example of how code coverage highlights insufficient unit testing",
+  "main": "example.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlennox/code-coverage-rocks.git"
+  },
+  "keywords": [
+    "code",
+    "coverage",
+    "istanbul",
+    "javascript",
+    "jest"
+  ],
+  "author": "Mark Lennox <mark@webpusher.ie>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mlennox/code-coverage-rocks/issues"
+  },
+  "homepage": "https://github.com/mlennox/code-coverage-rocks#readme",
+  "dependencies": {
+    "jest": "^24.1.0"
+  }
+}
