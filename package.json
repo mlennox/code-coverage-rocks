@@ -4,7 +4,8 @@
   "description": "Small example of how code coverage highlights insufficient unit testing",
   "main": "example.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest",
+    "coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
