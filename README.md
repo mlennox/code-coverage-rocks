@@ -5,10 +5,10 @@ Small example of how code coverage highlights insufficient unit testing _and_ sh
 The repo was created with Node.js version 10.15.1, the latest LTS version should be sufficient. Just run `npm install` to prepare the project. The code provided here is not intended to do anything, it is just an example, so run the test and code coverage using
 
 ```javascript
-npm test
+npm run coverage
 ```
 
-The coverage results are output to the `coverage` folder and you can see the html summary report at `coverage/lcov-report/index.html` which should open locally in your browser.
+The coverage results are output to the `coverage` folder and you can see the html summary report at `coverage/lcov-report/index.html` which should open locally in your browser. Note, the `coverage` folder is not part of this repo - it will be created when you run `npm run coverage`.
 
 ## Results
 
@@ -22,7 +22,7 @@ If we pull in the coverage report too, we immediately see there is a problem
 
 ![](./CodeCoverageSummary.png)
 
-If we look at the coverage report on the code itself the problems stick out like a sore thumb!
+Open the coverage report, found at `coverage/lcov-report/index.html`, in your browser - a double-click should do it - and look at the coverage report on the code itself _t_he problems stick out like a sore thumb!_
 
 ![](./Coverage.png)
 
